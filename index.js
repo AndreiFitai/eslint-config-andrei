@@ -36,7 +36,6 @@ module.exports = {
       { args: "after-used", varsIgnorePattern: "^_" },
     ],
     "immutable/no-let": 2,
-    "immutable/no-this": 2,
     "immutable/no-mutation": 2,
   },
   ignorePatterns: [".eslintrc.js"],
