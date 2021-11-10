@@ -23,16 +23,7 @@ module.exports = {
   rules: {
     "no-console": 1,
     curly: [2, "multi-line", "consistent"],
-    "comma-dangle": [
-      "warn",
-      {
-        arrays: "always-multiline",
-        objects: "always-multiline",
-        imports: "never",
-        exports: "never",
-        functions: "never",
-      },
-    ],
+    "comma-dangle": ["warn", "always-multiline"],
     "import/order": 1,
     "import/no-duplicates": 1,
     "import/newline-after-import": 1,
