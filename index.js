@@ -12,6 +12,7 @@ module.exports = {
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended",
+    "plugin:jest/recommended",
     "prettier",
   ],
   root: true,
@@ -25,6 +26,8 @@ module.exports = {
     "comma-dangle": [
       "warn",
       {
+        arrays: "always-multiline",
+        objects: "always-multiline",
         imports: "never",
         exports: "never",
         functions: "never",
